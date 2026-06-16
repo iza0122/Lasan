@@ -1,0 +1,14 @@
+STT,Phân hệ (Module),Tên chức năng,Người dùng (Actor),Mô tả ngắn gọn (Quy trình xử lý & Thuật toán),Độ ưu tiên
+1,Xã hội,Đăng bài,"Admin, Thành viên","Thành viên soạn bài viết (chữ + ảnh) → Hệ thống chuyển vào hàng đợi ""Chờ duyệt"" → Admin (Trưởng/Phó nhà) bấm ""Duyệt"" thì bài viết mới hiển thị trên Bảng tin chung.",Mở rộng
+,,Thông báo,Admin,Admin tạo thông báo quan trọng → Hệ thống tự động bắn thông báo (Notification) lên màn hình trang chủ của toàn bộ thành viên khi đăng nhập.,Cần
+,,Giới thiệu,Khách,"Trang công khai (không cần đăng nhập) hiển thị: Lịch sử, nội quy, hình ảnh cơ sở vật chất và form liên hệ/đăng ký ở cho người mới.",Cần
+2,Quản lý,Lịch nấu ăn,"Thành viên, Admin",Hiển thị dưới dạng lịch tuần (Calendar View). Admin phân công nhóm trực nhật theo tuần → Thành viên đăng nhập sẽ thấy tên mình và thực đơn của ca trực đó.,Gấp
+,,Lịch vệ sinh,"Thành viên, Admin","Tương tự lịch nấu ăn. Hệ thống hiển thị khu vực cần vệ sinh (Bếp, nhà xe, phòng học...) và danh sách thành viên chịu trách nhiệm trong ngày/tuần.",Gấp
+,,"Các hoạt động chung (Đi lễ, đọc kinh...)","Thành viên, Admin","Admin lên lịch cố định hoặc đột xuất (Giờ, địa điểm, nội dung) → Hệ thống tự động đồng bộ vào lịch cá nhân của thành viên và gửi cảnh báo nhắc nhở trước 30 phút.",Gấp
+,,"Xin phép (về trễ, qua đêm, về quê...)","Thành viên, Phụ huynh, Admin","Thành viên tạo đơn (Chọn loại phép, thời gian, lý do) → Hệ thống gửi liên kết xác nhận qua SMS/Zalo cho Phụ huynh → Phụ huynh bấm ""Đồng ý"" → Đơn chuyển tới Admin phê duyệt cuối cùng.",Cần
+,,Chừa cơm,Thành viên,"Thành viên bấm ""Đăng ký chừa cơm"" (Trưa/Tối). Điều kiện thuật toán: Khóa chức năng đăng ký cơm trưa sau 10:45 và cơm tối sau 18:15. Hệ thống tự động tổng hợp số lượng gửi cho nhóm nấu ăn.",Gấp
+,,Chấm lấy nước,Thành viên,Lấy nước xong tích vào lịch,Cần
+3,Tài chính,Thống kê,Thủ quỹ,"Hệ thống tự động lấy dữ liệu từ các khoản thu/chi để vẽ biểu đồ tròn (Tỷ lệ chi tiêu) và biểu đồ cột (Xu hướng dòng tiền theo tháng), tính ra số dư quỹ hiện tại.",Cần
+,,Thanh toán,"Thành viên, Thủ quỹ","Hệ thống hiển thị danh sách các khoản phí thành viên phải đóng (Tiền phòng, tiền quỹ...). Thành viên quét mã QR chuyển khoản → Thủ quỹ kiểm tra và bấm ""Xác nhận đã đóng"" để gạch nợ.",Cần
+,,Public khoản chi,"Thủ quỹ, Thành viên","Mỗi khi chi tiền, Thủ quỹ nhập: Số tiền, Nội dung, Danh mục, và đính kèm ảnh chụp Hóa đơn lẻ. Dữ liệu này hiển thị thành một bảng ""Nhật ký thu chi"" công khai cho tất cả thành viên giám sát.",Cần
+4,Khác,Thực đơn,"Thành viên, Admin","Nhóm đi chợ/nấu ăn cập nhật món ăn theo ngày hoặc theo tuần để cả nhà cùng biết hôm nay ăn gì, hỗ trợ cho việc đăng ký chừa cơm chuẩn xác hơn.",Mở rộng
